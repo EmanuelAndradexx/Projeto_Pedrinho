@@ -1,8 +1,108 @@
- body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
  background-image: url(img/jornaldefundo2.jpg);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
- }
+}
 
-min-height: ;}
+main {
+  padding: 100px 0;
+}
+
+div#caixa {
+  background-image: url("img/folhaescrita.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1201px;
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+div#caixa header {
+  position: relative;
+  top: 10px;
+  background-color: transparent;
+  width: 100%;
+}
+
+div#caixa header h1 {
+  font-size: 3.5em;
+  font-weight: 900;
+  text-align: center;
+}
+
+div#caixa header nav {
+  position: relative;
+  top: 56px;
+  padding: 0 50px;
+}
+
+div#caixa header nav ul {
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+div#caixa-1 {
+  position: relative;
+  top: 99px;
+  left: 21px;
+  width: 858px;
+  height: 374px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+div#caixa-1 div#crimes {
+  position: relative;
+  top: 3px;
+  left: 0px;
+  width: 428px;
+  height: 200px;
+  background-image: url("img/crimessss.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div#caixa-1 div#segunda-foto {
+  position: relative;
+  top: -189px;
+  right: 31px;
+  float: right;
+  width: 293px;
+  height: 280px;
+  background-image: url(img/segundafoto.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div#caixa-1 div#textos {
+  display: flex;
+  width: 450px;
+}
+
+div#caixa-1 div#textos p {
+  text-align: justify;
+  margin: 10px;
+  font-size: 12px;
+}
+
+div#caixa p#aaa {
+  float: right;
+  width: 100%;
+  padding: 0 20px;
+  position: relative;
+  top: -1px;
+  font-size: 2.5em;
+  text-align: justify;
+  margin: 0;
+}
