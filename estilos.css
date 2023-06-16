@@ -160,7 +160,7 @@ p#preso {
 
 footer h5 {
   position: relative;
-  top: -58px;
+  top: -98px;
   left: 445px;
   width: 400px;
   font-size: 1em;
@@ -182,8 +182,18 @@ span.vermelho {
 
 footer h6 {
   position: relative;
-  top: -76px;
-  left: 73px;
+  top: -125px;
+  left: 119px;
   width: 322px;
   font-size: 1em;
+}
+
+footer div {
+  position: relative;
+  top: -57px;
+  left: 41px;
+  background-image: url("img/jornal.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
 }
