@@ -3,20 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 body{
- background-image: url(img/jornaldefundo2.jpg);
+ background-image: url("img/jornaldefundo2.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
 }
-
 main {
   padding: 100px 0;
 }
-
-div.caixa {
+div#caixa {
   background-image: url("img/folhaescrita.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,34 +21,29 @@ div.caixa {
   display: block;
   margin: 0 auto;
 }
-
-div.caixa header {
+div#caixa header {
   position: relative;
   top: 10px;
   background-color: transparent;
   width: 100%;
 }
-
-div.caixa header h1 {
+div#caixa header h1 {
   font-size: 3.5em;
   font-weight: 900;
   text-align: center;
 }
-
-div.caixa header nav {
+div#caixa header nav {
   position: relative;
   top: 56px;
   padding: 0 50px;
 }
-
-div.caixa header nav ul {
+div#caixa header nav ul {
   display: flex;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
-
-div.caixa-1 {
+div#caixa-1 {
   position: relative;
   top: 99px;
   left: 21px;
@@ -61,8 +52,7 @@ div.caixa-1 {
   background-color: transparent;
   padding: 20px;
 }
-
-div.caixa-1 div#crimes {
+div#caixa-1 div#crimes {
   position: relative;
   top: 3px;
   left: 0px;
@@ -72,31 +62,27 @@ div.caixa-1 div#crimes {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-div.caixa-1 div#segunda-foto {
+div#caixa-1 div#segunda-foto {
   position: relative;
   top: -189px;
   right: 31px;
   float: right;
   width: 293px;
   height: 280px;
-  background-image: url(img/segundafoto.jpg);
+  background-image: url("img/segundafoto.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-div.caixa-1 div#textos {
+div#caixa-1 div#textos {
   display: flex;
   width: 450px;
 }
-
-div.caixa-1 div#textos p {
+div#caixa-1 div#textos p {
   text-align: justify;
   margin: 10px;
   font-size: 12px;
 }
-
-div.caixa p#aaa {
+div#caixa p#aaa {
   float: right;
   width: 100%;
   padding: 0 20px;
@@ -105,4 +91,99 @@ div.caixa p#aaa {
   font-size: 2.5em;
   text-align: justify;
   margin: 0;
+}
+
+h3{
+  width: 20%;
+  position: relative;
+  font-size: 2.5em;
+  text-align: justify;
+  margin-right: 50%;
+ }
+
+ div#terceirafoto {
+  position: relative;
+  top: 278px;
+  left: 176px;
+  width: 203px;
+  height: 324px;
+  background-image: url("img/fotodaprisao.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+p#preso {
+  font-size: 2.6em;
+  font-weight: 900;
+  position: relative;
+  top: -48px;
+  left: 25px;
+  width: 142px;
+}
+
+
+
+#outracaixa {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+  top: 100px;
+  left: 100px;
+}
+
+#foto-fim {
+  position: relative;
+  top: -424px;
+  left: 277px;
+  height: 263px;
+  width: 200px;
+  background-image: url(img/fimmmmmmmm.jpg);
+  background-size: cover;
+  background-position: center right;
+}
+
+#outracaixa h4 {
+  position: relative;
+  top: -687px;
+  left: 508px;
+  width: 236px;
+  font-size: 2.5em;
+}
+
+#outracaixa p {
+  position: relative;
+  top: -653px;
+  left: 279px;
+  width: 220px;
+}
+
+footer h5 {
+  position: relative;
+  top: -58px;
+  left: 445px;
+  width: 400px;
+  font-size: 1em;
+}
+
+span.vermelho {
+  font-weight: 900;
+  color: #5b0f00;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+span.vermelho {
+
+}
+
+footer h6 {
+  position: relative;
+  top: -76px;
+  left: 73px;
+  width: 322px;
+  font-size: 1em;
 }
