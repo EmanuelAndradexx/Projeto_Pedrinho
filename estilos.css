@@ -16,7 +16,7 @@ main {
   padding: 100px 0;
 }
 
-div#caixa {
+div.caixa {
   background-image: url("img/folhaescrita.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,33 +26,33 @@ div#caixa {
   margin: 0 auto;
 }
 
-div#caixa header {
+div.caixa header {
   position: relative;
   top: 10px;
   background-color: transparent;
   width: 100%;
 }
 
-div#caixa header h1 {
+div.caixa header h1 {
   font-size: 3.5em;
   font-weight: 900;
   text-align: center;
 }
 
-div#caixa header nav {
+div.caixa header nav {
   position: relative;
   top: 56px;
   padding: 0 50px;
 }
 
-div#caixa header nav ul {
+div.caixa header nav ul {
   display: flex;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
-div#caixa-1 {
+div.caixa-1 {
   position: relative;
   top: 99px;
   left: 21px;
@@ -62,7 +62,7 @@ div#caixa-1 {
   padding: 20px;
 }
 
-div#caixa-1 div#crimes {
+div.caixa-1 div#crimes {
   position: relative;
   top: 3px;
   left: 0px;
@@ -73,7 +73,7 @@ div#caixa-1 div#crimes {
   background-size: contain;
 }
 
-div#caixa-1 div#segunda-foto {
+div.caixa-1 div#segunda-foto {
   position: relative;
   top: -189px;
   right: 31px;
@@ -85,18 +85,18 @@ div#caixa-1 div#segunda-foto {
   background-size: contain;
 }
 
-div#caixa-1 div#textos {
+div.caixa-1 div#textos {
   display: flex;
   width: 450px;
 }
 
-div#caixa-1 div#textos p {
+div.caixa-1 div#textos p {
   text-align: justify;
   margin: 10px;
   font-size: 12px;
 }
 
-div#caixa p#aaa {
+div.caixa p#aaa {
   float: right;
   width: 100%;
   padding: 0 20px;
@@ -105,22 +105,4 @@ div#caixa p#aaa {
   font-size: 2.5em;
   text-align: justify;
   margin: 0;
-}
-
-h3{
-  width: 20%;
-  position: relative;
-  font-size: 2.5em;
-  text-align: justify;
-  margin-right: 50%;
- }
- div#terceirafoto {
-  position: absolute;
-  top: 869px;
-  left: 256px;
-  width: 203px;
-  height: 236px;
-  background-image: url(img/fotodaprisao.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
