@@ -387,10 +387,13 @@ div#caixa-1{
   div#caixa-1 div#txt-caixa1-fim p {
     text-align: justify;
     margin: 10px;
-    font-size: 12px;
+    right: 498px;
+    width: 36%;
+    height: 23px;
+    font-size: 22px;
     top: 23px;
-   position: relative;
-  }
+    position: absolute;
+}
 
 
   /*VIDA NO PRESIDIO*/
