@@ -69,13 +69,13 @@ div#caixa-1 div#crimes {
   background-repeat: no-repeat;
   background-size: contain;
 }
-div#caixa-1 div#segundafoto {
+div#caixa-1 div#segunda-foto {
   position: relative;
-  top: 28px;
-  right: 0px;
+  top: -188px;
+  right: 12px;
   float: right;
-  width: 271px;
-  height: 280px;
+  width: 298px;
+  height: 313px;
   background-image: url(img/segundafoto.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -95,8 +95,8 @@ div#caixa p#aaa {
   width: 100%;
   padding: 0 20px;
   position: relative;
-  top: 125px;
-  font-size: 2.5em;
+  top: -66px;
+  font-size: 3.5em;
   text-align: justify;
   margin: 0;
 }
@@ -251,7 +251,7 @@ div#espaco-do-meio {
 }
 div#caixa p#ppppp {
   float: right;
-  width: 37%;
+  width: 36%;
   padding: -9px -17px;
   position: absolute;
   top: 848px;
@@ -261,7 +261,7 @@ div#caixa p#ppppp {
 }
 div#caixa p#pp2 {
   float: right;
-  width: 37%;
+  width: 36%;
   padding: -9px -17px;
   position: absolute;
   top: 954px;
@@ -271,7 +271,7 @@ div#caixa p#pp2 {
 }
 div#caixa p#ppp3 {
   float: right;
-  width: 37%;
+  width: 36%;
   padding: -9px -17px;
   position: absolute;
   top: 1025px;
@@ -281,7 +281,7 @@ div#caixa p#ppp3 {
 }
 div#caixa p#pppp4 {
   float: right;
-  width: 25%;
+  width: 24%;
   padding: -9px -17px;
   position: absolute;
   top: 1094px;
@@ -301,12 +301,20 @@ div#textosdomeio p {
 }
 
 iframe#video1 {
-  top: 50px;
+  top: -490px;
   width: 300px;
-  margin-left: 45%;
+  margin-left: 19%;
   display: block;
   position: relative;
   transform: translateY(45);
+}
+div#caixa p#titulovideoinfancia {
+  top: -80px;
+  width: 400px;
+  margin-left: 3.5%;
+  display: block;
+  position: relative;
+  font-size: 22px;
 }
 
 /*crimes*/
@@ -418,4 +426,51 @@ div#caixa-1{
       background-repeat: no-repeat;
       background-size: contain;
   }
+
+  div#caixa-1 div#primeip{
+    text-align: justify;
+    margin: 10px;
+    right: 28px;
+    width: 66%;
+    font-size: 18px;
+    top: 23px;
+    position: absolute;
+  }
+  div#caixadomeio div#segunp {
+    text-align: justify;
+    margin: 10px;
+    right: 237px;
+    width: 64%;
+    font-size: 18px;
+    top: 660px;
+    position: absolute;
+}
+  div#ultimacaixa div#pultimacixa {
+    text-align: justify;
+    margin: 10px;
+    right: 260px;
+    width: 35%;
+    font-size: 14.2px;
+    top: 832px;
+    position: absolute;
+}
+div#caixabaixodovideo div#penultp {
+  text-align: justify;
+  margin: 89px;
+  right: 679px;
+  width: 26%;
+  font-size: 14.2px;
+  top: 992px;
+  position: absolute;
+}
+p#titulovideopresideo {
+  text-align: justify;
+  margin: 89px;
+  right: 667px;
+  width: 26%;
+  font-size: 22.2px;
+  top: 747px;
+  position: absolute;
+}
+
   
