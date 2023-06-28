@@ -1,0 +1,33 @@
+div#caixa {
+    background-image: url("img/folhaescrita.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+div#caixa-1 div#imgcrimes{
+    position: relative;
+    top: -20px;
+    right: 31px;
+    float: right;
+    width: 250px;
+    height: 280px;
+    background-image: url("img/crimessss.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  div#caixa-1 div#text1{
+    display: flex;
+    width: 450px;
+  }
+  
+  div#caixa-1 p#text1{
+  
+    text-align: justify;
+    margin-left: -19px;
+    font-size: 15px;
+    top: 23px;
+    position: relative;
+  }
