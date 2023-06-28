@@ -251,7 +251,7 @@ div#espaco-do-meio {
 }
 div#caixa p#ppppp {
   float: right;
-  width: 36%;
+  width: 25%;
   padding: -9px -17px;
   position: absolute;
   top: 848px;
@@ -261,7 +261,7 @@ div#caixa p#ppppp {
 }
 div#caixa p#pp2 {
   float: right;
-  width: 36%;
+  width: 25%;
   padding: -9px -17px;
   position: absolute;
   top: 954px;
@@ -271,7 +271,7 @@ div#caixa p#pp2 {
 }
 div#caixa p#ppp3 {
   float: right;
-  width: 36%;
+  width: 25%;
   padding: -9px -17px;
   position: absolute;
   top: 1025px;
@@ -281,7 +281,7 @@ div#caixa p#ppp3 {
 }
 div#caixa p#pppp4 {
   float: right;
-  width: 24%;
+  width: 17%;
   padding: -9px -17px;
   position: absolute;
   top: 1094px;
@@ -315,6 +315,33 @@ div#caixa p#titulovideoinfancia {
   display: block;
   position: relative;
   font-size: 22px;
+}
+.ytp-title-channel {
+  background: transparent;
+  -webkit-border-radius: 153px;
+  -moz-border-radius: 25px;
+  border-radius: 111px;
+  display: none;
+  height: 50px;
+  margin-left: -93px;
+  overflow: hidden;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 50px;
+}
+.ytp-large-play-button {
+  position: absolute;
+  left: 82%;
+  top: 76%;
+  width: 68px;
+  height: 48px;
+  margin-left: -34px;
+  margin-top: -24px;
+  -webkit-transition: opacity .25s cubic-bezier(0,0,.2,1);
+  -o-transition: opacity .25s cubic-bezier(0,0,.2,1);
+  transition: opacity .25s cubic-bezier(0,0,.2,1);
+  z-index: 63;
 }
 
 /*crimes*/
@@ -360,8 +387,18 @@ div#caixa div#txt2-caixa1-crimes p{
   margin-right: -19px;
   font-size: 15px;
   top: 23px;
-  width: 23%;
+  width: 807px;
   position: relative;
+}
+
+div#caix2 div#caip p {
+  text-align: justify;
+  margin-right: -7px;
+  font-size: 14px;
+  top: 285px;
+  width: 486px;
+  position: relative;
+  right: -378px;
 }
 
 /*FIM*/
@@ -427,49 +464,49 @@ div#caixa-1{
       background-size: contain;
   }
 
-  div#caixa-1 div#primeip{
+  div#caixa-1 div#primeip {
     text-align: justify;
     margin: 10px;
-    right: 28px;
-    width: 66%;
-    font-size: 18px;
+    right: 10px;
+    width: 600px;
+    font-size: 20px;
     top: 23px;
     position: absolute;
-  }
-  div#caixadomeio div#segunp {
-    text-align: justify;
-    margin: 10px;
-    right: 237px;
-    width: 64%;
-    font-size: 18px;
-    top: 660px;
-    position: absolute;
 }
-  div#ultimacaixa div#pultimacixa {
-    text-align: justify;
-    margin: 10px;
-    right: 260px;
-    width: 35%;
-    font-size: 14.2px;
-    top: 832px;
-    position: absolute;
+div#caixadomeio div#segunp {
+  text-align: justify;
+  margin: 35px;
+  right: 489px;
+  width: 855px;
+  font-size: 16px;
+  top: 652px;
+  position: absolute;
+}
+div#ultimacaixa div#pultimacixa {
+  text-align: justify;
+  margin: 10px;
+  right: 533px;
+  width: 469px;
+  font-size: 14.2px;
+  top: 837px;
+  position: absolute;
 }
 div#caixabaixodovideo div#penultp {
   text-align: justify;
   margin: 89px;
-  right: 679px;
-  width: 26%;
+  right: 959px;
+  width: 339px;
   font-size: 14.2px;
-  top: 992px;
+  top: 981px;
   position: absolute;
 }
 p#titulovideopresideo {
   text-align: justify;
   margin: 89px;
-  right: 667px;
-  width: 26%;
+  right: 792px;
+  width: 499px;
   font-size: 22.2px;
-  top: 747px;
+  top: 725px;
   position: absolute;
 }
 
