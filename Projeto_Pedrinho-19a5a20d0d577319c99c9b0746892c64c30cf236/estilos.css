@@ -343,7 +343,13 @@ div#caixa p#titulovideoinfancia {
   transition: opacity .25s cubic-bezier(0,0,.2,1);
   z-index: 63;
 }
-
+footer.pe{
+  position: relative;
+  top: -125px;
+  left: 119px;
+  width: 322px;
+  font-size: 1.5em;
+}
 /*crimes*/
 
 div#caixa-1{
@@ -595,6 +601,80 @@ p#titulovideopresideo {
   width: 499px;
   font-size: 22.2px;
   top: 725px;
+  position: absolute;
+}
+/*sobre*/
+h1#missao {
+  text-align: justify;
+  margin: 89px;
+  right: 473px;
+  width: 499px;
+  font-size: 46.2px;
+  top: 199px;
+  position: absolute;
+}
+h2#visao {
+  text-align: justify;
+  margin: 89px;
+  right: 470px;
+  width: 499px;
+  font-size: 48.2px;
+  top: 387px;
+  position: absolute;
+}
+h3#valores {
+  text-align: justify;
+  margin: 10px;
+  right: 619px;
+  width: 469px;
+  font-size: 38.2px;
+  top: 670px;
+  position: absolute;
+}
+h4#tabela {
+  text-align: justify;
+  margin: 35px;
+  right: 238px;
+  width: 458px;
+  font-size: 21px;
+  top: 822px;
+  position: absolute;
+}
+p#titumissao {
+  text-align: justify;
+  margin: 89px;
+  right: 192px;
+  width: 789px;
+  font-size: 24.2px;
+  top: 259px;
+  position: absolute;
+}
+p#tituvisao {
+  text-align: justify;
+  margin: 89px;
+  right: 182px;
+  width: 806px;
+  font-size: 26.2px;
+  top: 451px;
+  position: absolute;
+}
+p#titu2visao {
+  text-align: center;
+  margin: 89px;
+  right: 700px;
+  width: 308px;
+  font-size: 26.2px;
+  top: 788px;
+  position: absolute;
+}
+
+p#tituvalores {
+  text-align: justify;
+  margin: 10px;
+  right: 246px;
+  width: 844px;
+  font-size: 27.2px;
+  top: 722px;
   position: absolute;
 }
 
