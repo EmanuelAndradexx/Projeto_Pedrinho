@@ -251,27 +251,27 @@ div#espaco-do-meio {
 }
 div#caixa p#ppppp {
   float: right;
-  width: 25%;
-  padding: -9px -17px;
-  position: absolute;
-  top: 848px;
-  font-size: 12.5px;
-  text-align: justify;
-  margin-left: 380px;
+    width: 36%;
+    padding: -9px -17px;
+    position: absolute;
+    top: 848px;
+    font-size: 12.5px;
+    text-align: justify;
+    margin-left: 380px;
 }
 div#caixa p#pp2 {
   float: right;
-  width: 25%;
-  padding: -9px -17px;
-  position: absolute;
-  top: 954px;
-  font-size: 12.5px;
-  text-align: justify;
-  margin-left: 380px;
+    width: 36%;
+    padding: -9px -17px;
+    position: absolute;
+    top: 942px;
+    font-size: 12.5px;
+    text-align: justify;
+    margin-left: 380px;
 }
 div#caixa p#ppp3 {
   float: right;
-  width: 25%;
+  width: 36%;
   padding: -9px -17px;
   position: absolute;
   top: 1025px;
@@ -281,13 +281,13 @@ div#caixa p#ppp3 {
 }
 div#caixa p#pppp4 {
   float: right;
-  width: 17%;
-  padding: -9px -17px;
-  position: absolute;
-  top: 1094px;
-  font-size: 13px;
-  text-align: justify;
-  margin-left: 19px;
+    width: 23%;
+    padding: -9px -17px;
+    position: absolute;
+    top: 1077px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 26px;
 }
 div#textosdomeio p {
   float: right;
@@ -298,6 +298,31 @@ div#textosdomeio p {
   font-size: 19px;
   text-align: justify;
   margin-left: -19px;
+}
+footer#footerinfancia h5#h5infancia{ 
+  position: relative;
+  top: -392px;
+  left: 628px;
+  width: 400px;
+  font-size: 1em;
+}
+
+footer#footerinfancia div#iconeinfancia {
+  position: relative;
+    top: -343px;
+    left: 284px;
+    background-image: url(img/jornal.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+footer#footerinfancia h6#h6infancia {
+  position: relative;
+    top: -419px;
+    left: 358px;
+    width: 322px;
+    font-size: 1em;
 }
 
 iframe#video1 {
@@ -347,60 +372,311 @@ div#caixa p#titulovideoinfancia {
 /*crimes*/
 
 div#caixa-1{
-position: relative;
-  top: 99px;
-  left: 21px;
-  width: 858px;
-  height: 374px;
-  background-color: transparent;
-  padding: 20px;
-}
-
-div#caixa-1 div#crimes {
   position: relative;
-  top: 3px;
-  left: -6px;
-  width: 445px;
-  height: 208px;
-  background-image: url(img/crimessss.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+    top: 99px;
+    left: 21px;
+    width: 858px;
+    height: 374px;
+    background-color: transparent;
+    padding: 20px;
+  }
+  
+  div#caixa-1 div#crimes {
+    position: relative;
+    top: 3px;
+    left: -6px;
+    width: 445px;
+    height: 208px;
+    background-image: url(img/crimessss.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  div#caixa-1 div#txt-caixa1-crimes {
+    display: flex;
+    width: 450px;
+  }
+  
+  div#caixa-1 div#txt-caixa1-crimes p {
+    text-align: justify;
+    margin-right: 182px;
+    font-size: 22px;
+    right: -167px;
+    top: 23px;
+    width: 43%;
+    height: 23px;
+    position: absolute;
+  }
+  
+  div#caixa div#txt2-caixa1-crimes p {
+    text-align: justify;
+    margin-right: -19px;
+    font-size: 18px;
+    top: 12px;
+    width: 807px;
+    right: 3px;
+    position: relative;
+  }
+  div#caixa div#txt3-caixa1-crimes p {
+    text-align: justify;
+    margin-right: -19px;
+    font-size: 17px;
+    top: 67px;
+    width: 807px;
+    right: 790px;
+    position: relative;
+  }
+  
+  div#caix2 div#caip p {
+    text-align: justify;
+    margin-right: -7px;
+    font-size: 14px;
+    top: 285px;
+    width: 486px;
+    position: relative;
+    right: -378px;
+  }
+  div#caix3 div#caip2 p {
+    text-align: justify;
+    margin-right: -7px;
+    font-size: 27px;
+    top: -181px;
+    width: 857px;
+    position: relative;
+    right: -22px;
+  }
+  p#ultimo-p {
+    text-align: justify;
+    margin-right: -7px;
+    font-size: 14px;
+    top: 86px;
+    width: 323px;
+    position: relative;
+    right: -19px;
+  }
+  p#titulo-do-video-de-crimes {
+    text-align: justify;
+    margin-right: -7px;
+    font-size: 23px;
+    top: -255px;
+    width: 408px;
+    position: relative;
+    right: -20px;
+  }
+  span.vermelho {
+    font-weight: 800;
+    color: #661111;
+    text-decoration: none;
+  }
+  
+  footer#footercrime h5#h5crime{ 
+    position: relative;
+    top: 56px;
+    left: 468px;
+    width: 400px;
+    font-size: 1em;
+  }
+  
+  footer#footercrime div#iconecrime {
+    position: relative;
+    top: 96px;
+    left: 58px;
+    background-image: url(img/jornal.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer#footercrime h6#h6crime {
+    position: relative;
+    top: 31px;
+    left: 129px;
+    width: 322px;
+    font-size: 1em;
+  }
+ 
+ 
+  /*FIM*/
+  
+  div#caixa-1{
+    position: relative;
+      top: 99px;
+      left: 21px;
+      width: 858px;
+      height: 374px;
+      background-color: transparent;
+      padding: 20px;
+    }
+  
+    div#caixa-1 div#foto-fim {
+      position: relative;
+      top: 15px;
+      left: 358px;
+      width: 447px;
+      height: 289px;
+      background-image: url(img/fimmmmmmmm.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+    div#caixa-1 div#txt-caixa1-fim {
+      display: flex;
+      width: 450px;
+    }
+  
+    div#caixa-1 div#txt-caixa1-fim p {
+      text-align: justify;
+      margin: 10px;
+      right: 470px;
+      width: 365px;
+      height: 25px;
+      font-size: 22px;
+      top: 26px;
+      position: absolute;
+  }
+  p#text2 {
+    text-align: justify;
+    right: -11px;
+    width: 863px;
+    height: 23px;
+    font-size: 17px;
+    top: 330px;
+    position: absolute;
+  }
+  p#text3 {
+    text-align: justify;
+    right: 14px;
+    width: 855px;
+    height: 23px;
+    font-size: 25px;
+    top: 395px;
+    position: absolute;
+  }
+  p#text4 {
+    text-align: justify;
+    right: 17px;
+    width: 477px;
+    height: 23px;
+    font-size: 18px;
+    top: 564px;
+    position: absolute;
+  }
+  p#text5 {
+    text-align: justify;
+    right: 19px;
+    width: 474px;
+    height: 23px;
+    font-size: 19px;
+    top: 702px;
+    position: absolute;
+  }
+  p#text6 {
+      text-align: justify;
+      right: 15px;
+      width: 483px;
+      height: 23px;
+      font-size: 18px;
+      top: 788px;
+      position: absolute;
+  }
 
-div#caixa-1 div#txt-caixa1-crimes {
-  display: flex;
-  width: 450px;
-}
+  footer#footerfim h5#h5fim{ 
+    position: relative;
+    top: 600px;
+    left: 468px;
+    width: 400px;
+    font-size: 1em;
+  }
+  
+  footer#footerfim div#iconefim {
+    position: relative;
+    top: 641px;
+    left: 58px;
+    background-image: url(img/jornal.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+  
+  footer#footerfim h6#h6fim {
+    position: relative;
+    top: 577px;
+    left: 129px;
+    width: 322px;
+    font-size: 1em;
+  }
+  
+  
+    /*VIDA NO PRESIDIO*/
+  
+    div#caixa-1{
+       position: relative;
+        top: 99px;
+        left: 21px;
+        width: 858px;
+        height: 374px;
+        background-color: transparent;
+        padding: 20px;
+      }
+  
+      div#caixa-1 div#foto-presidio {
+        position: relative;
+        top: 3px;
+        left: 0px;
+        width: 466px;
+        height: 349px;
+        background-image: url(img/fotodaprisao.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+  
+    div#caixa-1 div#primeip {
+      text-align: justify;
+      margin: 10px;
+      right: 10px;
+      width: 600px;
+      font-size: 20px;
+      top: 23px;
+      position: absolute;
+  }
+  div#caixadomeio div#segunp {
+    text-align: justify;
+    margin: 35px;
+    right: 489px;
+    width: 855px;
+    font-size: 16px;
+    top: 652px;
+    position: absolute;
+  }
+  div#ultimacaixa div#pultimacixa {
+    text-align: justify;
+    margin: 10px;
+    right: 533px;
+    width: 469px;
+    font-size: 14.2px;
+    top: 837px;
+    position: absolute;
+  }
+  div#caixabaixodovideo div#penultp {
+    text-align: justify;
+    margin: 89px;
+    right: 959px;
+    width: 339px;
+    font-size: 14.2px;
+    top: 981px;
+    position: absolute;
+  }
+  p#titulovideopresideo {
+    text-align: justify;
+    margin: 89px;
+    right: 792px;
+    width: 499px;
+    font-size: 22.2px;
+    top: 725px;
+    position: absolute;
+  }
 
-div#caixa-1 div#txt-caixa1-crimes p {
-  text-align: justify;
-  margin-right: 182px;
-  font-size: 22px;
-  right: -155px;
-  top: 23px;
-  width: 42%;
-  height: 23px;
-  position: absolute;
-}
-div#caixa div#txt2-caixa1-crimes p{
-  text-align: justify;
-  margin-right: -19px;
-  font-size: 15px;
-  top: 23px;
-  width: 807px;
-  position: relative;
-}
-
-div#caix2 div#caip p {
-  text-align: justify;
-  margin-right: -7px;
-  font-size: 14px;
-  top: 285px;
-  width: 486px;
-  position: relative;
-  right: -378px;
-}
-
+  
 /*FIM*/
 
 div#caixa-1{
@@ -432,11 +708,56 @@ div#caixa-1{
   div#caixa-1 div#txt-caixa1-fim p {
     text-align: justify;
     margin: 10px;
-    right: 498px;
-    width: 36%;
-    height: 23px;
+    right: 470px;
+    width: 365px;
+    height: 25px;
     font-size: 22px;
-    top: 23px;
+    top: 26px;
+    position: absolute;
+}
+p#text2 {
+  text-align: justify;
+  right: -11px;
+  width: 863px;
+  height: 23px;
+  font-size: 17px;
+  top: 330px;
+  position: absolute;
+}
+p#text3 {
+  text-align: justify;
+  right: 14px;
+  width: 855px;
+  height: 23px;
+  font-size: 25px;
+  top: 395px;
+  position: absolute;
+}
+p#text4 {
+  text-align: justify;
+  right: 17px;
+  width: 477px;
+  height: 23px;
+  font-size: 18px;
+  top: 564px;
+  position: absolute;
+}
+p#text5 {
+  text-align: justify;
+  right: 19px;
+  width: 474px;
+  height: 23px;
+  font-size: 19px;
+  top: 702px;
+  position: absolute;
+}
+p#text6 {
+    text-align: justify;
+    right: 15px;
+    width: 483px;
+    height: 23px;
+    font-size: 18px;
+    top: 788px;
     position: absolute;
 }
 
@@ -473,14 +794,15 @@ div#caixa-1{
     top: 23px;
     position: absolute;
 }
-div#caixadomeio div#segunp {
-  text-align: justify;
-  margin: 35px;
-  right: 489px;
-  width: 855px;
-  font-size: 16px;
-  top: 652px;
+div#outracaixa div#segunp p{
+  float: right;
+  width: 810%;
+  padding: -9px -17px;
   position: absolute;
+  top: 24px;
+  font-size: 17px;
+  text-align: justify;
+  margin-left: -353px;
 }
 div#ultimacaixa div#pultimacixa {
   text-align: justify;
@@ -510,4 +832,168 @@ p#titulovideopresideo {
   position: absolute;
 }
 
+div#caixa p#pppppvidapresidio {
+  float: right;
+    width: 35%;
+    padding: -9px -17px;
+    position: absolute;
+    top: 848px;
+    font-size: 13.5px;
+    text-align: justify;
+    margin-left: 386px;
+}
   
+div#caixa div#penultp p{
+  float: right;
+  width: 24%;
+  padding: -9px -17px;
+  position: absolute;
+  top: 1062px;
+  font-size: 14px;
+  text-align: justify;
+  margin-left: 25px;
+}
+
+div#caixa p#titulovideopresidio strong{ 
+  top: 183px;
+  width: 400px;
+  margin-left: 2.5%;
+  display: block;
+  position: relative;
+  font-size: 22px;
+}
+
+footer#footervidapreso h5#h5vidapreso{ 
+  position: relative;
+  top: -133px;
+  left: 468px;
+  width: 400px;
+  font-size: 1em;
+}
+
+footer#footervidapreso div#iconevidapreso {
+  position: relative;
+  top: -92px;
+  left: 58px;
+  background-image: url(img/jornal.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+footer#footervidapreso h6#h6vidapreso {
+  position: relative;
+  top: -164px;
+  left: 129px;
+  width: 322px;
+  font-size: 1em;
+}
+
+/*SOBRE*/
+h1#missao {
+  text-align: justify;
+  margin: 89px;
+  right: 473px;
+  width: 499px;
+  font-size: 46.2px;
+  top: 199px;
+  position: absolute;
+}
+h2#visao {
+  text-align: justify;
+  margin: 89px;
+  right: 470px;
+  width: 499px;
+  font-size: 48.2px;
+  top: 387px;
+  position: absolute;
+}
+h3#valores {
+  text-align: justify;
+  margin: 10px;
+  right: 619px;
+  width: 469px;
+  font-size: 38.2px;
+  top: 670px;
+  position: absolute;
+}
+h4#tabela {
+  text-align: justify;
+  margin: 35px;
+  right: 238px;
+  width: 458px;
+  font-size: 21px;
+  top: 822px;
+  position: absolute;
+}
+p#titumissao {
+  text-align: justify;
+  margin: 89px;
+  right: 192px;
+  width: 789px;
+  font-size: 24.2px;
+  top: 259px;
+  position: absolute;
+}
+p#tituvisao {
+  text-align: justify;
+  margin: 89px;
+  right: 182px;
+  width: 806px;
+  font-size: 26.2px;
+  top: 451px;
+  position: absolute;
+}
+p#titu2visao {
+  text-align: center;
+  margin: 89px;
+  right: 700px;
+  width: 308px;
+  font-size: 26.2px;
+  top: 788px;
+  position: absolute;
+}
+
+p#tituvalores {
+  text-align: justify;
+  margin: 10px;
+  right: 246px;
+  width: 844px;
+  font-size: 27.2px;
+  top: 722px;
+  position: absolute;
+}
+
+footer#footersobre h5#h5sobre{ 
+  position: relative;
+  top: 980px;
+  left: 468px;
+  width: 400px;
+  font-size: 1em;
+}
+
+footer#footersobre div#iconesobre {
+  position: relative;
+  top: 1019px;
+  left: 58px;
+  background-image: url(img/jornal.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+footer#footersobre h6#h6sobre {
+  position: relative;
+  top: 951px;
+  left: 129px;
+  width: 322px;
+  font-size: 1em;
+}
+
+p#titulo-do-video-de-crimes strong{
+  position: relative;
+  top: 0px;
+  left: -9px;
+  width: 39%;
+  font-size: 0.9em;
+}
