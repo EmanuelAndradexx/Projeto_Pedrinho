@@ -993,3 +993,25 @@ form.tabela {
   top: 772px;
   position: absolute;
 }
+p#sobre::first-line {
+  color: rgb(100, 30, 12);
+  text-transform: uppercase;
+}
+/*easter egg*/
+@keyframes aaaa {
+  0% {
+      transform: rotate(-30deg);
+  }
+  100% {
+      transform: rotate(30deg);
+  }
+}
+img.faquinha {
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  display: block;
+  margin: 20px auto;
+  animation: aaaa 2s ease-in-out infinite alternate;
+}
