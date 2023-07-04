@@ -1,0 +1,46 @@
+div#caixa {
+    background-image: url("img/folhaescrita.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+div#caixa-1 div#fotofim{
+    position: relative;
+    top: -20px;
+    right: 31px;
+    float: right;
+    width: 250px;
+    height: 280px;
+    background-image: url("img/fimmmmmmmm.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+   background-image: url("img/jornaldefundo2.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+  }
+  nav.vermelho li{
+    background-color: #dddd;
+    padding:10px;
+    margin: 2px;;
+    Transition: background-color 1s;
+  }
+  
+  main {
+    padding: 100px 0;
+  }
+
+
+
+/*FIM*/
+
