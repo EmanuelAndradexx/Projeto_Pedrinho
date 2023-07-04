@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 nav.vermelho li {
@@ -193,6 +194,17 @@ span.vermelho {
   text-decoration: none;
 }
 
+.tabela * {
+  margin: 20px 0;
+}
+
+header nav ul li a span:hover {
+  background-color: #661111;
+  border: 3px solid white;
+  color: white;
+  transition: .2s;
+}
+
 li a {
   text-decoration: none;
 }
@@ -264,7 +276,7 @@ div#espaco-do-meio {
 
 div#caixa p#ppppp {
   float: right;
-  width: 36%;
+  width: 25.5%;
   padding: -9px -17px;
   position: absolute;
   top: 848px;
@@ -275,7 +287,7 @@ div#caixa p#ppppp {
 
 div#caixa p#pp2 {
   float: right;
-  width: 36%;
+  width: 25.5%;
   padding: -9px -17px;
   position: absolute;
   top: 942px;
@@ -286,7 +298,7 @@ div#caixa p#pp2 {
 
 div#caixa p#ppp3 {
   float: right;
-  width: 36%;
+  width: 25.5%;
   padding: -9px -17px;
   position: absolute;
   top: 1025px;
@@ -297,7 +309,7 @@ div#caixa p#ppp3 {
 
 div#caixa p#pppp4 {
   float: right;
-  width: 23%;
+  width: 17%;
   padding: -9px -17px;
   position: absolute;
   top: 1077px;
@@ -319,16 +331,16 @@ div#textosdomeio p {
 
 footer#footerinfancia h5#h5infancia {
   position: relative;
-  top: -392px;
-  left: 628px;
+  top: -238px;
+  left: 973px;
   width: 400px;
   font-size: 1em;
 }
 
 footer#footerinfancia div#iconeinfancia {
   position: relative;
-  top: -343px;
-  left: 284px;
+  top: -195px;
+  left: 567px;
   background-image: url(img/jornal.png);
   background-size: cover;
   width: 50px;
@@ -337,19 +349,43 @@ footer#footerinfancia div#iconeinfancia {
 
 footer#footerinfancia h6#h6infancia {
   position: relative;
-  top: -419px;
-  left: 358px;
+  top: -267px;
+  left: 667px;
   width: 322px;
   font-size: 1em;
 }
 
 iframe#video1 {
-  top: -490px;
+  top: -47px;
   width: 300px;
-  margin-left: 19%;
+  margin-left: 5%;
   display: block;
   position: relative;
-  transform: translateY(45);
+}
+
+iframe#video2 {
+  top: -357px;
+  width: 300px;
+  margin-left: 3%;
+  display: block;
+  position: relative;
+}
+
+iframe#video3 {
+  top: -535px;
+  width: 279px;
+  margin-left: 5%;
+  display: block;
+  position: relative;
+  height: 184px;
+}
+
+iframe#video4 {
+  top: 180px;
+  width: 279px;
+  margin-left: 5%;
+  display: block;
+  position: relative;
 }
 
 div#caixa p#titulovideoinfancia {
@@ -482,7 +518,7 @@ p#ultimo-p {
 p#titulo-do-video-de-crimes {
   text-align: justify;
   margin-right: -7px;
-  font-size: 23px;
+  font-size: 20px;
   top: -255px;
   width: 408px;
   position: relative;
@@ -878,26 +914,25 @@ p#titulovideopresideo {
 
 div#caixa p#pppppvidapresidio {
   float: right;
-  width: 35%;
+  width: 24.5%;
   padding: -9px -17px;
   position: absolute;
-  top: 848px;
-  font-size: 13.5px;
+  top: 856px;
+  font-size: 14.5px;
   text-align: justify;
   margin-left: 386px;
 }
 
 div#caixa div#penultp p {
   float: right;
-  width: 24%;
+  width: 17%;
   padding: -9px -17px;
   position: absolute;
-  top: 1062px;
-  font-size: 14px;
+  top: 1065px;
+  font-size: 15px;
   text-align: justify;
   margin-left: 25px;
 }
-
 div#caixa p#titulovideopresidio strong {
   top: 183px;
   width: 400px;
@@ -936,18 +971,18 @@ footer#footervidapreso h6#h6vidapreso {
 /*SOBRE*/
 p#primeirosobre {
   text-align: center;
-  margin: 89px;
-  right: 203px;
+  margin: 186px;
+  right: 379px;
   width: 757px;
   font-size: 23.2px;
-  top: 235px;
+  top: 152px;
   position: absolute;
 }
 
 p#segundosobre {
   text-align: center;
-  margin: 89px;
-  right: 222px;
+  margin: 91px;
+  right: 478px;
   width: 722px;
   font-size: 26.2px;
   top: 459px;
@@ -957,7 +992,7 @@ p#segundosobre {
 p#terceirosobre {
   text-align: center;
   margin: 10px;
-  right: 244px;
+  right: 539px;
   width: 793px;
   font-size: 31.2px;
   top: 679px;
@@ -966,8 +1001,8 @@ p#terceirosobre {
 
 p#quartosobre {
   text-align: center;
-  margin: 35px;
-  right: 754px;
+  margin: 54px;
+  right: 998px;
   width: 309px;
   font-size: 46px;
   top: 781px;
@@ -977,7 +1012,7 @@ p#quartosobre {
 p#sobre {
   text-align: center;
   margin: 89px;
-  right: 192px;
+  right: 461px;
   width: 789px;
   font-size: 24.2px;
   top: 1104px;
@@ -987,7 +1022,7 @@ p#sobre {
 form.tabela {
   text-align: center;
   margin: 89px;
-  right: 154px;
+  right: 430px;
   width: 506px;
   font-size: 24.2px;
   top: 772px;
@@ -1014,4 +1049,8 @@ img.faquinha {
   display: block;
   margin: 20px auto;
   animation: aaaa 2s ease-in-out infinite alternate;
+}
+
+h6 a {
+  color: #661111;
 }
