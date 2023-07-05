@@ -1054,3 +1054,7 @@ img.faquinha {
 h6 a {
   color: #661111;
 }
+
+#terceirafoto:hover {
+  cursor: url("img/skull.png"), auto;
+}
